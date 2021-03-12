@@ -1,5 +1,5 @@
 #include<iostream>
-using namespace std
+using namespace std;
 int main()
 { 
 int age;
@@ -11,6 +11,6 @@ if(age>=18)
 	
 }
 else
-cout<<"\n you arenot eligible"
+cout<<"\n you are not eligible";
 return 0;
 }
