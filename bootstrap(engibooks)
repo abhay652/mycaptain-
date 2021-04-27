@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>Engibooks!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Engibooks</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">New Arival</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">College</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Your Stuff</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\HP\Desktop/C.jfif" class="d-block w-100" style="height:500px "  alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\HP\Desktop/B.jpg" class="d-block w-100" style="height:500px "alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\HP\Desktop/A.jfif" class="d-block w-100" style="height:500px "alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-light" type="button">New Arival</button>
+<br>
+</div><center>
+<div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-dark" type="button"><img src="C:\Users\HP\Desktop/me.png"></button>
+  <button class="btn btn-dark" type="button"><img src="C:\Users\HP\Desktop/me.png"></button>
+  </center>
+</div>
+<br>
+<div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-dark" type="button">College</button>
+<br>
+</div><center>
+<div class="d-grid gap-2 d-md-block">
+  <button class="btn btn-light" type="button"><img src="C:\Users\HP\Desktop/dtu.jfif"></button>
+  <button class="btn btn-light" type="button"><img src="C:\Users\HP\Desktop/thaper.jfif"></button>
+  </center>
+</div>
+<br><br><br>
+<div class="row">
+  <div class="col-sm-6">
+    <p> We will try our best to provide you all the books you require
+      <br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+ <div class="col-sm-6">
+   <img src="C:\Users\HP\Desktop/D.jfif" style="height: 100px">
+ </div></div>
+ <div class="d-grid gap-2 col-6 mx-auto">
+  <button class="btn btn-light" type="button">ABOUT</button>
+<br>
+</div>
+<br>
+<div class="row">
+  <div class="col-sm-6">
+    <p> This is a startup and in this we will try to provide online PDF of all the text books you wanted as i is more compatible to have eBook instead of having a heavy book. also our pricising is very low which everyone can afford and don't cause any burden on them.
+      <br>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+ <div class="col-sm-6">
+   <img src="C:\Users\HP\Desktop/D.jfif" style="height: 100px">
+ </div></div>
+ <br>
+ <h1><center>Contact Us</center></h1>
+ <div class="col-md-5 preview-highlighter" style="text-align: center;"> 
+  <ul class="list-unstyled contact-as-details-container"> 
+    <li>Ludhiana, Punjab, India</li>
+     </ul> 
+  <ul class="list-unstyled contact-as-details-container"> 
+    <li><a href="tel:999-7777-000" data-allow-external-link="true"><i class="svg-m s123-icon-converter " data-icon-name="phone" style=" mask: url('https://second-cdn.f-static.com/ready_uploads/svg/phone.svg?v=2'); -webkit-mask: url('https://second-cdn.f-static.com/ready_uploads/svg/phone.svg?v=2');" data-ie11-classes="">&nbsp;</i><span dir="ltr">999-7777-000</span></a></li>
+     <li><a href="mailto:fighte652@gmail.com" data-allow-external-link="true"><i class="svg-m s123-icon-converter  fa-fw" data-icon-name="envelope-o" style=" mask: url('https://second-cdn.f-static.com/ready_uploads/svg/envelope-o.svg?v=2'); -webkit-mask: url('https://second-cdn.f-static.com/ready_uploads/svg/envelope-o.svg?v=2');" data-ie11-classes=" fa-fw">&nbsp;</i>fighte652@gmail.com</a></li>
+   </ul> 
+ </div>
+ <form class="breakable contactUsForm  o-h-relative" data-date-format="d/m/Y" data-click-action="" novalidate="novalidate"> 
+  <div class="preview-highlighter col-md-6 col-md-offset-1"> 
+    <div class="row"> <div class="col-md-6">
+     <div class="form-group"> <input type="text" name="contact_name" placeholder="Name" class="form-control" required="" data-msg-required="This field is required."> </div> </div> <div class="col-md-6">
+      <div class="form-group"> <input type="text" name="contact_phone" placeholder="Phone" class="form-control"> 
+  </div> </div> </div> 
+  <div class="form-group"> <input type="text" name="contact_email" placeholder="Email address" class="form-control s123-force-ltr" required="" data-msg-required="This field is required." data-rule-email="true" data-msg-email="Please enter a valid email."> 
+  </div> <div class="form-group"> <textarea class="form-control" name="contact_message" placeholder="Message" style="min-height: 100px;"></textarea> </div> 
+  <button type="submit" class="btn btn-primary btn-block">Contact Us</button> 
+</div> <input type="hidden" name="w" value="4215079"> <input type="hidden" name="websiteID" value="4215079"> <input type="hidden" name="moduleID" value="5b190c8eba4ac"> <input type="hidden" name="layout" value="3"> <input type="hidden" name="recaptchaToken" value=""> </form>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
