@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type = "text" id = "new_list">
+    <button onclick="additem()">Add item</button>
+
+    <script type="text/javascript">
+    var listitems = [ 'Buy Groceries', 'Eat breakfast'] 
+    
+    </script>
+
+    <script type= "text/javascript">
+    function additem(){
+        var tempItem = document.getElementById("new_list").value;
+        listitems.push(listitems);
+        displaylist(tempItem);
+        document.getElementById("new_list").value="";
+    }
+ 
+    </script>
+
+
+    <div id = "display">
+        <h3>YOUR TODO : </h3>
+        <ul>
+            <script type = "text/javascript">
+            listitems.forEach(displaylist);
+            
+            function displaylist(item){
+                document.getElementById("display").innerHTML+="<li>"+item+"</li>"
+            }
+            </script>
+        </ul>
+    </div>
+</body>
+</html>
